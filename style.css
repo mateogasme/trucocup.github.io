@@ -11,12 +11,17 @@ html {
 
 html::-webkit-scrollbar {
 	width: 7px;
-	background: #FFE19C;
+	background: #ffffff;
 }
 
 html::-webkit-scrollbar-thumb {
 	border-radius: 9px;
 	background: #ff9532;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	border-radius: 9px;
+	background: #c77426;
 }
 
 .n {
