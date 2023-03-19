@@ -1,0 +1,188 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #FFE19C;
+	color: #333;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.n {
+	font-weight: 600 !important;
+}
+
+header {
+	background-color: #F9C14E;
+	padding: 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.banner {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.banner h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.banner h2 {
+	font-size: 24px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+section h2 {
+	margin-bottom: 10px;
+}
+
+.partidas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.card {
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.card h2 {
+	font-size: 24px;
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+}
+
+.card p {
+	font-size: 16px;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #666;
+}
+
+.card .winner {
+	color: green;
+}
+
+.card .loser {
+	color: red;
+}
+
+.alert {
+	background-color: #ff9532;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.partidas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.partidas h1 {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+footer {
+	background-color: #222;
+	padding: 10px;
+	text-align: center;
+	color: #aaa;
+	font-size: 14px;
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	/* Estilos para pantallas menores o iguales a 600px de ancho */
+	header {
+	  padding: 10px;
+	}
+	
+	nav {
+	  flex-direction: column;
+	}
+	
+	nav li {
+	  margin-right: 15px;
+	  margin-bottom: 10px;
+	}
+	
+	.banner h1 {
+	  font-size: 36px;
+	}
+	
+	.banner h2 {
+	  font-size: 18px;
+	}
+	
+	main {
+	  padding: 10px;
+	}
+	
+	.card {
+	  margin-bottom: 20px;
+	}
+
+	img {
+		height: 370px
+	}
+  }
+
+
+
+
+@media (max-width: 768px) {
+	header {
+		padding: 10px;
+	}
+}
